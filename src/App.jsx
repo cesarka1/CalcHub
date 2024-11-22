@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Fundamentos from "./pages/Fundamentos";
 import Tecnicas from "./pages/Tecnicas";
+import Taxonomia from "./pages/Taxonomia";
 
 function App() {
   const [page, setPage] = useState("home");
@@ -14,6 +15,8 @@ function App() {
         return <Fundamentos />;
       case "tecnicas":
         return <Tecnicas />;
+      case "taxonomia":
+        return <Taxonomia />;
       default:
         return (
           <div>
