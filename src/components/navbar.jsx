@@ -1,4 +1,4 @@
-function Navbar({ setPage }) {
+function NavBar({ setPage }) {
   return (
     <nav className="bg-blue-200 rounded-lg my-8 p-4 shadow-md">
       <ul className="flex justify-center space-x-6">
@@ -39,4 +39,4 @@ function Navbar({ setPage }) {
   );
 }
 
-export default Navbar;
+export default NavBar;

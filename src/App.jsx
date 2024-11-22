@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Header from "./components/Header";
-import Navbar from "./components/Navbar";
+import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import Fundamentos from "./pages/Fundamentos";
 import Tecnicas from "./pages/Tecnicas";
@@ -34,7 +34,7 @@ function App() {
   return (
     <div>
       <Header />
-      <Navbar setPage={setPage} />
+      <NavBar setPage={setPage} />
       <main className="container mx-auto px-4">{renderPage()}</main>
       <Footer />
     </div>

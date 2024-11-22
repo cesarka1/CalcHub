@@ -25,7 +25,6 @@ function Taxonomia() {
                 específicos."
             >
               <button
-                onclick="loadPage('limites-finitos.html')"
                 className="mt-4 bg-blue-500 text-white py-2 px-4 rounded shadow hover:bg-blue-700"
               >
                 Explorar
@@ -37,7 +36,7 @@ function Taxonomia() {
               content="Limites onde o valor cresce ou decresce indefinidamente."
             >
               <button
-                onclick="loadPage('limites-infinitos.html')"
+                
                 className="mt-4 bg-blue-500 text-white py-2 px-4 rounded shadow hover:bg-blue-700"
               >
                 Explorar
@@ -49,7 +48,7 @@ function Taxonomia() {
               content="Limites envolvendo funções trigonométricas, como seno e cosseno."
             >
               <button
-                onclick="loadPage('limites-trigonometricos.html')"
+                
                 className="mt-4 bg-blue-500 text-white py-2 px-4 rounded shadow hover:bg-blue-700"
               >
                 Explorar

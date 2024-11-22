@@ -13,7 +13,7 @@ function Tecnicas() {
               <li>✅ Substituição direta: Quando a função é contínua.</li>
               <li>✅ Fatoração: Elimina indeterminações como 0/0.</li>
               <li>✅ Racionalização: Útil para expressões com raízes.</li>
-              <li>✅ Regra de L'Hôpital: Resolve indeterminações de forma precisa.</li>
+              <li>✅ Regra de L`&apos;`Hôpital: Resolve indeterminações de forma precisa.</li>
             </ul>
           </div>
         </div>
