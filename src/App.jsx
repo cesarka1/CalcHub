@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Header from "./components/Header";
 import NavBar from "./components/NavBar";
-import Footer from "./components/footer";
+import Footer from "./components/Footer";
 import Fundamentos from "./pages/Fundamentos";
 import Tecnicas from "./pages/Tecnicas";
 import Taxonomia from "./pages/Taxonomia";
