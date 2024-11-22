@@ -1,6 +1,5 @@
 import { useState } from "react";
 import Header from "./components/Header";
-import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import Fundamentos from "./pages/Fundamentos";
 import Tecnicas from "./pages/Tecnicas";
@@ -34,7 +33,6 @@ function App() {
   return (
     <div>
       <Header />
-      <NavBar setPage={setPage} />
       <main className="container mx-auto px-4">{renderPage()}</main>
       <Footer />
     </div>
