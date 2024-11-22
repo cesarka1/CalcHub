@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 function NavBar({ setPage }) {
   return (
     <nav className="bg-blue-200 rounded-lg my-8 p-4 shadow-md">
